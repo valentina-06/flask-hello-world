@@ -32,3 +32,8 @@ jobs:
       run: |
         pip freeze
 
+    - name: Deploy to Render
+      run: |
+        curl -X POST "https://api.render.com/deploy/srv-csokpk23esus73c86ak0?key=y0VIprRmUIk" \
+        -H "Content-Type: application/json" \
+        -d '{}'
