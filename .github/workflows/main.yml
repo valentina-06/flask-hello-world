@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: "Paso 1"
         run: | 
-          echo "Hola mundo "
+          echo "Hola mundo  "
           hostname
           pwd
           ls -l
